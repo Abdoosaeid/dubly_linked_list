@@ -1,0 +1,3 @@
+D:/projcts.cpp/data structure/dubly_linked_list/cmake-build-debug/CMakeFiles/dubly_linked_list.dir
+D:/projcts.cpp/data structure/dubly_linked_list/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/projcts.cpp/data structure/dubly_linked_list/cmake-build-debug/CMakeFiles/rebuild_cache.dir

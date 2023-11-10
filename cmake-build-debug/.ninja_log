@@ -1,0 +1,9 @@
+# ninja log v5
+1	344	7210876023249609	CMakeFiles/dubly_linked_list.dir/main.cpp.obj	94f3f29d3fca30f8
+345	501	7210876024780922	dubly_linked_list.exe	35842b372e10e18
+2	324	7210933348543904	CMakeFiles/dubly_linked_list.dir/main.cpp.obj	94f3f29d3fca30f8
+324	423	7210933349498893	dubly_linked_list.exe	35842b372e10e18
+3	303	7210933587824151	CMakeFiles/dubly_linked_list.dir/main.cpp.obj	94f3f29d3fca30f8
+303	391	7210933588679581	dubly_linked_list.exe	35842b372e10e18
+2	320	7210933695068045	CMakeFiles/dubly_linked_list.dir/main.cpp.obj	94f3f29d3fca30f8
+321	408	7210933695914881	dubly_linked_list.exe	35842b372e10e18
