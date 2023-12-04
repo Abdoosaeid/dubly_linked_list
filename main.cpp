@@ -7,6 +7,7 @@ using namespace std;
  };
  struct node* head=NULL;
  struct node*tail=NULL;
+ //////////////////////////////////////////////////////////////////////////
  void insertFirst(int val)
  {
     node  *newnode=new node;
@@ -27,6 +28,7 @@ using namespace std;
         head=newnode;
     }
  }
+//////////////////////////////////////////////////////////////////////////
  void insert_last(int val)
  {
      struct node*newnode=new node;
@@ -46,6 +48,8 @@ using namespace std;
          tail=newnode;
      }
  }
+//////////////////////////////////////////////////////////////////////////
+
  void insertAfter(int after,int element)
  {
      node *newnode=new node;
@@ -92,6 +96,8 @@ using namespace std;
      newnode->data= element;
      temp->next=newnode;
  }
+//////////////////////////////////////////////////////////////////////////
+
  void deleteFirst(){
      if(head== nullptr)
      {
@@ -115,6 +121,8 @@ using namespace std;
          delete temp;
      }
  }
+//////////////////////////////////////////////////////////////////////////
+
  void deletlast()
  {
      if(head== nullptr)
@@ -138,6 +146,8 @@ using namespace std;
          delete temp;
      }
  }
+//////////////////////////////////////////////////////////////////////////
+
  void deletItem(int element) {
      node *temp = head;
      if (head == nullptr) {
@@ -178,6 +188,8 @@ using namespace std;
      delete temp;
 
  }
+//////////////////////////////////////////////////////////////////////////
+
  struct node*search(int element)
  {
      node*temp=head;
@@ -192,6 +204,8 @@ using namespace std;
      }
      return nullptr;
  }
+//////////////////////////////////////////////////////////////////////////
+
 void printList()
 {
     struct node* temp;
@@ -203,6 +217,7 @@ void printList()
     }
     cout<<"\n";
 }
+//////////////////////////////////////////////////////////////////////////
 void printReverse()
 {
     struct node* temp;
@@ -214,6 +229,7 @@ void printReverse()
     }
     cout<<endl;
 }
+//////////////////////////////////////////////////////////////////////////
 void makereverse()
 {
     struct node* prv=NULL;
@@ -228,6 +244,7 @@ void makereverse()
     }
     head=prv;
 }
+//////////////////////////////////////////////////////////////////////////
 int main() {
     insertFirst(5);
     insertFirst(4);
